@@ -1,0 +1,69 @@
+<style>
+input[type="button"]{ 
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #606060), colorstop(1, #606060) ); 
+background:-moz-linear-gradient( center top, #606060 5%, #606060 100% ); 
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#606060', 
+endColorstr='#606060'); 
+background-color:#606060; 
+border:1px solid #606060; 
+display:inline-block; 
+color:#fff; 
+font-family:Arial; 
+font-size:50px; 
+line-height:28px; 
+text-decoration:none; 
+text-align:center; 
+margin-bottom:1.5px; 
+margin-left: 1.5px; 
+margin-right:1.5px ; 
+margin-top:1.5px ; 
+height: 60px; 
+position:center; 
+} 
+input[type="button"]{ 
+width: 100px; 
+} 
+#btnC{ 
+width:200px; 
+} 
+#btn0{ 
+width:200px; 
+} 
+#btn0,#btndecimal,#btndivide { 
+margin-right: 0.1px; 
+
+} 
+#btn7,#btn4,#btn1,#btn0,#btnequals { 
+margin-left: 0.01px; 
+} 
+#btnequals { 
+height: 40px; 
+width: 505px; 
+margin-top: 1px; 
+} 
+input[type="button"]:active { 
+position:relative; 
+background:#989898; 
+} 
+input:focus { 
+outline:0; 
+} 
+input[type="Text"] { 
+padding-left: 10px; 
+margin-bottom: 1.5px; 
+font-size: 50px; 
+background-color: #202020 ;n 
+height:195px; 
+width: 500px; 
+border:none; 
+color:white; 
+} 
+body { 
+background-color: #202020 ; 
+overflow: hidden; 
+} 
+#about { 
+font-size: 15px; 
+} 
+</style>
+
